@@ -66,12 +66,6 @@ Cоздать суперпользователя:
 docker-compose exec web python manage.py createsuperuser
 ```
 
-Залить данные из БД:
-
-```
-docker-compose exec web python manage.py loaddata fixtures.json
-```
-
 Проверить работоспособность проекта:
 
 ```
